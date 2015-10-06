@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List Tests</title>
+  </head>
+  <body>
+    <h1>Todo List Tests</h1>
+    <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+
+    <div id="mocha"><p><a href=".">Index</a></p></div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.3.0/chai.js"></script>
+    <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+
+    <script src="todo.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="test.js"></script>
+    <script src="item.js"></script>
+    <script>mocha.run();</script>
+  </body>
+</html>
