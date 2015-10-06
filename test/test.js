@@ -1,5 +1,7 @@
 //https://nicolas.perriault.net/code/2013/testing-frontend-javascript-code-using-mocha-chai-and-sinon/
-var expect = chai.expect;
+var expect = require('chai').expect;
+var List = require('../lib/todo');
+var Item = require('../lib/item');
 
 describe('List', function() {
   beforeEach(function() {
